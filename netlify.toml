@@ -1,3 +1,9 @@
 [build]
 command = "yarn build"
 publish = "dist"
+
+
+[dev]
+port = 57774
+command = "yarn start"
+publish = "src"
